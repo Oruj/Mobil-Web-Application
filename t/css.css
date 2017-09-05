@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("campo-de-f%C3%BAtbol_595625126.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    background-position-x: center;
+}
+
+.bu1,
+.bu2,
+.bu3,
+.bu4,
+.bu5,
+.bu6 {
+    width: 65px;
+    height: 65px;
+    background-color: rgba(76, 175, 80, 0.55);
+    color: white;
+    border-radius: 100px;
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 5px;
+    right: 8px;
+}
+
+header {
+    background: rgba(59, 136, 62, 0.83);
+    border-style: dashed;
+    border-width: 3px;
+    width: 74%;
+    text-align: center;
+    border-color: black;
+    color: white;
+}
+
+#body {
+    background: white;
+    border-style: dashed;
+    border-color: black;
+    border-width: 3px;
+    width: 94%;
+    top: 2%;
+    position: fixed;
+    text-align: center;
+    background-color: rgba(59, 136, 62, 0.83);
+    color: white;
+    overflow-y: scroll;
+    bottom: 21%;
+    right: 11px;
+}
+
+.tables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bodym {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 2%;
+    bottom: 78px;
+    width: 94%;
+    right: 3%;
+    border-style: dashed;
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+table,
+td,
+th,
+tr {
+    text-align: center;
+    padding: 5px;
+}
